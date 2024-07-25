@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Nager.Date/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Nager.LicenseSystem": "1.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Nager.Date.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Nager.Date.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nager.LicenseSystem/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Nager.LicenseSystem.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Nager.LicenseSystem.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nager.Date/2.4.0": {
+      "sha512": "LuKxKw8xbi5G6OjlEwrDAulaWtX2hOp5pGf2qe1heacPR1dHw0zMzuPkApQhOI/uwUanl6TTMZhUuP2ZY/cWcw==",
+      "type": "package",
+      "path": "nager.date/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "calendar.png",
+        "lib/net472/Nager.Date.dll",
+        "lib/net472/Nager.Date.xml",
+        "lib/net6.0/Nager.Date.dll",
+        "lib/net6.0/Nager.Date.xml",
+        "lib/net8.0/Nager.Date.dll",
+        "lib/net8.0/Nager.Date.xml",
+        "lib/netstandard2.0/Nager.Date.dll",
+        "lib/netstandard2.0/Nager.Date.xml",
+        "nager.date.2.4.0.nupkg.sha512",
+        "nager.date.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Nager.LicenseSystem/1.1.0": {
+      "sha512": "ihcA33JzSss1gXwCx3BSFJbbHFMU04vPuyE52Yufcg073VGVMCirVnKAhs3DFPzSORJhndiMHanfaYdBflqcpg==",
+      "type": "package",
+      "path": "nager.licensesystem/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/net472/Nager.LicenseSystem.dll",
+        "lib/net472/Nager.LicenseSystem.xml",
+        "lib/net6.0/Nager.LicenseSystem.dll",
+        "lib/net6.0/Nager.LicenseSystem.xml",
+        "lib/net8.0/Nager.LicenseSystem.dll",
+        "lib/net8.0/Nager.LicenseSystem.xml",
+        "lib/netstandard2.0/Nager.LicenseSystem.dll",
+        "lib/netstandard2.0/Nager.LicenseSystem.xml",
+        "nager.licensesystem.1.1.0.nupkg.sha512",
+        "nager.licensesystem.nuspec",
+        "packageicon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Nager.Date >= 2.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aespinoza\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aespinoza\\Documents\\Desenvolvimento\\IsBusinessDay\\IsBusinessDay\\IsBusinessDay.csproj",
+      "projectName": "IsBusinessDay",
+      "projectPath": "C:\\Users\\aespinoza\\Documents\\Desenvolvimento\\IsBusinessDay\\IsBusinessDay\\IsBusinessDay.csproj",
+      "packagesPath": "C:\\Users\\aespinoza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aespinoza\\Documents\\Desenvolvimento\\IsBusinessDay\\IsBusinessDay\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aespinoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Nager.Date": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IsBusinessDay/1.0.0": {
+        "dependencies": {
+          "Nager.Date": "2.4.0"
+        },
+        "runtime": {
+          "IsBusinessDay.dll": {}
+        }
+      },
+      "Nager.Date/2.4.0": {
+        "dependencies": {
+          "Nager.LicenseSystem": "1.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Nager.Date.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
+      "Nager.LicenseSystem/1.1.0": {
+        "runtime": {
+          "lib/net8.0/Nager.LicenseSystem.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IsBusinessDay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nager.Date/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuKxKw8xbi5G6OjlEwrDAulaWtX2hOp5pGf2qe1heacPR1dHw0zMzuPkApQhOI/uwUanl6TTMZhUuP2ZY/cWcw==",
+      "path": "nager.date/2.4.0",
+      "hashPath": "nager.date.2.4.0.nupkg.sha512"
+    },
+    "Nager.LicenseSystem/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ihcA33JzSss1gXwCx3BSFJbbHFMU04vPuyE52Yufcg073VGVMCirVnKAhs3DFPzSORJhndiMHanfaYdBflqcpg==",
+      "path": "nager.licensesystem/1.1.0",
+      "hashPath": "nager.licensesystem.1.1.0.nupkg.sha512"
+    }
+  }
+}
